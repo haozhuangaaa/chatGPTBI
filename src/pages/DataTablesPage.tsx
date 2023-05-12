@@ -45,7 +45,7 @@ const DataTablesPage: React.FC = () => {
   return (
     <>
       <PageTitle>{t('common.report')}</PageTitle>
-      <S.Card title={'File Upload'} style={{ height: '40%' }}>
+      <S.Card title={'File Upload'} style={{ height: '20%' }}>
         <BaseUpload {...uploadProps}>
           <BaseButton icon={<UploadOutlined />}>{t('uploads.clickToUpload')}</BaseButton>
         </BaseUpload>

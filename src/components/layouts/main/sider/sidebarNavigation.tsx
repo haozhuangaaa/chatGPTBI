@@ -102,8 +102,8 @@ export const sidebarNavigation: SidebarNavigationItem[] = [
     icon: <TableOutlined />,
   },
   {
-    title: 'common.dataTables',
-    key: 'dataTables',
+    title: 'common.report',
+    key: 'report',
     url: '/report',
     icon: <LineChartOutlined />,
   },
